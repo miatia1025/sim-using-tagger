@@ -6,8 +6,9 @@ powershell
 git  
 python 3.10.6  
 
-CUDA Toolkit 11.6
-cuDNN 8.
+CUDA Toolkit 11.6  
+cuDNN 8.5くらい  
+-> https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#requirements  
 
 ## 実行方法  
 1/7 リポジトリのクローン  
