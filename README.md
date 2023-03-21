@@ -10,6 +10,14 @@ CUDA Toolkit 11.6
 cuDNN 8.5くらい  
 -> https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#requirements  
 
+## 用意するもの  
+こことかの  
+https://huggingface.co/SmilingWolf/wd-v1-4-convnextv2-tagger-v2  
+こういうの  
+https://huggingface.co/SmilingWolf/wd-v1-4-convnextv2-tagger-v2/resolve/main/model.onnx  
+
+あと数枚程度の画像が入ったフォルダ  
+
 ## 実行方法  
 1/7 リポジトリのクローン  
 `git clone https://github.com/miatia1025/sim-with-tagger`  
