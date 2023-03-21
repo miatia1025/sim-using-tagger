@@ -22,8 +22,8 @@ cuDNN 8.
 4/7 activateして  
 `./venv/scripts/activate`  
   
-5/7 ライブラリをインストールして
-`pip install -r requirements`  
+5/7 ライブラリをrequirementx.txtでインストールして  
+`pip install -r requirements.txt`  
 
 6/7 main.pyのmodel_path(taggerのモデルのパス), img_dir(比較したい画像の詰まったディレクトリ)を書き換える  
 ```py
