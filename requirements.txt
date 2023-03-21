@@ -1,0 +1,9 @@
+onnxruntime
+numpy
+opencv-python
+python-utils
+icecream
+--extra-index-url https://download.pytorch.org/whl/cu116
+torch==1.13.0+cu116
+torchaudio==0.13.0
+torchvision==0.14.0+cu116
