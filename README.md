@@ -1,6 +1,10 @@
 # sim-with-tagger  
 指定フォルダ内の画像をベクトルにして比較して表にするアレの環境  
-  
+
+## Notebook  
+3/23 追加    
+[![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/miatia1025/sim-using-tagger/blob/main/sim_using_tagger.ipynb)  
+
 ## 環境  
 powershell  
 git  
