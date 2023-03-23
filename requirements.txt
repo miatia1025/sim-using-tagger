@@ -1,5 +1,7 @@
-onnxruntime
+onnxruntime-gpu==1.14.1
 numpy
 opencv-python
 python-utils
 icecream
+pandas
+scikit-learn
