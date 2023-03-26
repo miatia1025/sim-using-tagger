@@ -4,4 +4,6 @@ opencv-python
 python-utils
 icecream
 pandas
+ipython
 scikit-learn
+tensorflow==1.12.0

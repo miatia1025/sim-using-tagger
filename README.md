@@ -5,7 +5,7 @@
 3/23 追加    
 [![](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=5c5c5c&color=0f80c1&label=%20&style=for-the-badge)](https://colab.research.google.com/github/miatia1025/sim-using-tagger/blob/main/sim_using_tagger.ipynb)  
 
-## 環境  
+## 環境(Win)  
 powershell  
 git  
 python 3.10.6  
@@ -13,6 +13,11 @@ python 3.10.6
 CUDA Toolkit 11.6  
 cuDNN 8.5くらい  
 -> https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#requirements  
+
+## 環境(WSL2)  
+Ubuntu 22.0.4  
+
+詳しくはまた今度！WSLなんもわからん……  
 
 ## 用意するもの  
 こことかの  
@@ -43,7 +48,7 @@ https://huggingface.co/SmilingWolf/wd-v1-4-convnextv2-tagger-v2/resolve/main/mod
 model_path = r"path/to/tagger/model.onnx"
 img_dir = r"path/to/images"
 ```  
-具体的にはこう  
+具体的な例はこう  
 ```py
 model_path = r"E:\AI\miatiadev\miatia-tagger\models\wd-v1-4-convnextv2-tagger-v2\model.onnx"
 img_dir = r"E:\AI\miatiadev\miatia-tagger\imgs\00_similarity"
