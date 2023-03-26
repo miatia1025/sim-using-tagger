@@ -1,4 +1,5 @@
-/venv/
-/models/
-/mamba/
-/imgs/
+/venv
+/models
+/mamba
+/mamba-wsl
+/imgs

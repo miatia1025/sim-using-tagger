@@ -1,7 +1,7 @@
 ## User Inputs
 
 model_path = r"E:\AI\miatiadev\miatia-tagger\models\wd-v1-4-convnextv2-tagger-v2\model.onnx"
-img_dir = r"E:\AI\miatiadev\miatia-tagger\imgs\04_recuisive"
+img_dir = r"E:\AI\miatiadev\miatia-tagger\imgs\resized_pixiv_filtered_omit_pixiv_48456_and_low-med-res"
 csv_path = r"E:\AI\miatiadev\miatia-tagger\models\wd-v1-4-convnextv2-tagger-v2\selected_tags.csv"
 
 ignore_dir_names = ("json", "npy", )
@@ -35,7 +35,7 @@ for i in range(len(img_path_list)):
     #ic(tag_txt)
     
     if os.path.exists(emb_npy) and not any(name in emb_npy for name in ignore_dir_names):
-        os.remove(emb_npy)
+        #os.remove(emb_npy)
         print(f"removed {img_filename_list[i]}.npy")
         pass
 
