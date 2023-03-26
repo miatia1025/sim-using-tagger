@@ -1,0 +1,11 @@
+onnxruntime-gpu==1.14.1
+Pillow
+numpy
+opencv-python
+python-utils
+icecream
+pandas
+scikit-learn
+ipython
+
+tensorflow==2.12.0
