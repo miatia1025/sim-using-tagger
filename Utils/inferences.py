@@ -60,6 +60,24 @@ def get_img_list(dir):
 
     return img_path_list, img_filename_list
 
+def walk_img_list(dir, ignore_dir_names, target_exts):
+    img_path_list = []
+    img_filename_list = []
+
+    for root, dirs, files in os.walk(dir):
+        if any(ignore_dir in dirs for ignore_dir in ignore_dir_names):
+            dirs[:] = [d for d in dirs if d not in ignore_dir_names]
+
+        for file in files:
+            ext = os.path.splitext(file)[1].lower()
+            
+            if ext in target_exts:
+                img_path = os.path.join(root, file)
+                img_path_list.append(img_path)
+                img_filename_list.append(os.path.splitext(file)[0])
+
+    return img_path_list, img_filename_list
+
 
 def calc_embedding(img_path, model: rt.InferenceSession):
     # load img from path

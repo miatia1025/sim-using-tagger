@@ -1,9 +1,11 @@
 onnxruntime-gpu==1.14.1
+Pillow
 numpy
 opencv-python
 python-utils
 icecream
 pandas
-ipython
 scikit-learn
-tensorflow==1.12.0
+ipython
+
+tensorflow==2.12.0
